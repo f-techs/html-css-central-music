@@ -17,4 +17,4 @@ jobs:
         server: ftp.f-techsconsult.com
         username:  ${{ secrets.ftp_username }}
         password:  ${{ secrets.ftp_password }}
-        server-dir: /html-css.projects.f-techsconsult.com
+        server-dir: /home2/ftechco/html-css.projects.f-techsconsult.com
