@@ -90,7 +90,7 @@ nav {
 
 .call-out .container {
   text-align: center;
-  border-radius: 5%;
+  border-radius: 2em;
   background-color: var(--primary-color);
   padding: .3em;
   position: absolute;
@@ -151,19 +151,19 @@ ul {
   margin: 0 auto;
 }
 
-li {
+.feature-list {
   margin: 2em auto;
   background-color: #DDDDDD;
   border-radius: 1em;
   text-align: center;
 }
 
-li .product-details {
+.feature-list .product-details {
   background: white;
   padding: .2em;
 }
 
-li .product-details .product-brand-price {
+.feature-list .product-details .product-brand-price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,12 +171,12 @@ li .product-details .product-brand-price {
   font-weight: bold;
 }
 
-li .product-details .product-description {
+.feature-list .product-details .product-description {
   font-size: .8em;
   text-align: left;
 }
 
-li .product-details .product-color {
+.feature-list .product-details .product-color {
   text-align: center;
   margin-top: 1.5em;
   border: 1px solid #EAEAEA;

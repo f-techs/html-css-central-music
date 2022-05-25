@@ -75,7 +75,7 @@ nav{
      margin:0 auto;
      .container{
          text-align: center;
-        border-radius: 5%;
+        border-radius: 2em;
         background-color: var(--primary-color);
         padding:.3em;
         position: absolute;
@@ -127,7 +127,7 @@ nav{
       ul{
           margin:0 auto;
       }
-      li{
+ .feature-list{
           margin:2em auto;
           background-color: #DDDDDD;
           border-radius: 1em;
