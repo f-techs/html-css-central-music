@@ -215,14 +215,28 @@ ul {
   margin-top: .5em;
 }
 
-.gear-heads ul {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+.gear-heads ul li {
+  margin: 1.5em;
+  background-color: #DDDDDD;
+  border-radius: 1em;
+  text-align: center;
 }
 
 .gear-heads ul img {
   width: 100%;
+}
+
+.gear-heads .gear-heads-title {
+  height: 3em;
+  text-align: left;
+  padding: 2em;
+}
+
+.gear-heads .gear-heads-title h1 {
+  margin: 0;
+}
+
+.gear-heads .gear-heads-title p {
+  margin-top: .5em;
 }
 /*# sourceMappingURL=main.css.map */

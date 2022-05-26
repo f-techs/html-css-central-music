@@ -182,10 +182,25 @@ nav{
         }
     }
     ul{
-        img{
-            width:100%;
+        li{
+            margin:1.5em;
+            background-color: #DDDDDD;
+            border-radius: 1em;
+            text-align: center;
         }
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        img{
+            width: 100%;
+        }
     }
+  .gear-heads-title{
+      height:3em;
+      text-align:left;
+      padding:2em;
+      h1{
+          margin:0;
+      }
+      p{
+          margin-top:.5em;
+      }
+  }
 }
