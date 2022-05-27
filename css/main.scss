@@ -21,7 +21,7 @@ nav{
     background-image: url('../images/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -20em;
+    background-position:center;
     width:100%;
     height: 500px;
     .container{
@@ -58,6 +58,7 @@ nav{
     }
     .hero-text{
         height: 100%;
+        width:100%;
         margin:0 auto;
         position:absolute;
         bottom:0;
@@ -76,14 +77,18 @@ nav{
      width:90%;
      position: relative;
      margin:0 auto;
+     left:0;
+     right: 0;
+    // margin:auto;
      .container{
-         text-align: center;
+        text-align: center;
         border-radius: 2em;
         background-color: var(--primary-color);
-        padding:.3em;
+        padding:.5em;
         position: absolute;
         z-index: 999;
         height:100%;
+        width: 100%;
         top:-8em;
         color: white;
      }
@@ -132,7 +137,7 @@ nav{
           padding-left: 0;
       }
  .feature-list{
-          margin:2em auto;
+          margin:2em 2em;
           background-color: #DDDDDD;
           border-radius: 1em;
           text-align: center;
@@ -187,7 +192,7 @@ nav{
     }
     ul{
         li{
-            margin:1.5em;
+            margin:1.2em;
             background-color: #DDDDDD;
             border-radius: 1em;
             text-align: center;
@@ -279,4 +284,81 @@ nav{
        color: white;
        font-size:1.5em;
    }
+}
+
+@media only screen and (min-width:768px){
+    .hero-text{
+        h1{
+            text-align:left;
+            width:40%;
+        };
+    }
+    .call-out{
+        p{
+            margin:1em 5em;
+        }
+    }
+    .top-bar{
+      border:.1em solid var(--primary-color);
+      width:150px; 
+    }
+    .featured-list-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gear-heads-list{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer{
+        // .brand-footer{
+        //     display:unset;
+        // }
+        .footer-container{
+            display:flex;
+            place-content: space-between;
+            .footer-menu{
+                position:relative;
+                text-align: left;
+                font-size: 1em;
+                display:flex;
+                place-content: space-between;
+                .menu-1{
+                   padding:.5em;
+                }
+                .menu-2{
+                    padding:.5em;
+                }
+                .header-bar{
+                   width: 60px;
+                   position:absolute;
+                   top:-1em;
+                }
+            }
+
+            .right-column{
+               margin-top:5em;
+            }
+            
+        }
+        .brand-footer{
+            display: flex;
+            margin-bottom: .2em;
+        a{
+            text-decoration: none;
+            color:white;
+            font-size:1.3em;
+            span{
+                font-weight: bold;
+            }
+        }
+        .brandname{
+            margin: top 0.1em;
+            margin-left:.2em;
+        }
+        }
+    }
+    .sub-footer{
+        text-align: left;
+    }
 }
