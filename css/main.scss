@@ -10,6 +10,9 @@ body{
     margin:0;
     font-family: 'Work Sans', sans-serif;
 }
+* {
+    box-sizing: border-box;
+}
 
 nav{
     display: none;
@@ -126,6 +129,7 @@ nav{
     }
       ul{
           margin:0 auto;
+          padding-left: 0;
       }
  .feature-list{
           margin:2em auto;
@@ -193,7 +197,7 @@ nav{
         }
     }
   .gear-heads-title{
-      height:3em;
+      height:8em;
       text-align:left;
       padding:2em;
       h1{

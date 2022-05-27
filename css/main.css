@@ -10,6 +10,11 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 nav {
   display: none;
 }
@@ -149,6 +154,7 @@ ul {
 
 ul {
   margin: 0 auto;
+  padding-left: 0;
 }
 
 .feature-list {
@@ -227,7 +233,7 @@ ul {
 }
 
 .gear-heads .gear-heads-title {
-  height: 3em;
+  height: 8em;
   text-align: left;
   padding: 2em;
 }
