@@ -42,6 +42,7 @@ nav{
     }
 
     .logo-brandname{
+        height: 100%;
         display: flex;
         a{
             text-decoration: none;
@@ -50,6 +51,7 @@ nav{
             span{
                 font-weight: bold;
             }
+           
         }
         .brandname{
             margin-top:0.5em;
@@ -291,9 +293,10 @@ nav{
         h1{
             text-align:left;
             width:40%;
-        };
+        }
     }
     .call-out{
+        width:70%;
         p{
             margin:1em 5em;
         }
@@ -308,7 +311,7 @@ nav{
     }
     .gear-heads-list{
         display:grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
     .footer{
         // .brand-footer{
@@ -361,4 +364,56 @@ nav{
     .sub-footer{
         text-align: left;
     }
+}
+
+@media only screen and (min-width:1080px){
+    .container{
+        .mobile-menu, .mobileExit{
+       display: none;
+        }
+    }
+.hero-navbar{
+    .navbar{
+      //  display:flex;
+        //place-content: space-between;
+        //justify-content: ;
+    }
+}
+    nav{
+        display:flex;
+        position:unset;
+        background: none;
+        height: 100%;
+        padding:0;
+        place-content: space-between;
+       .container{
+           display:grid;
+          grid-template-columns: 680px auto;
+           ul{
+               display: flex;
+               height:100%;
+               li{
+                   margin-top:.4em;
+                   margin-left:1.5em;
+               }
+           }
+       }
+       .nav-primary{
+           margin:0;
+       }
+    }
+
+    .featured-list-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+      .gear-heads-list{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .call-out{
+        width:50%;
+    }
+ 
 }
